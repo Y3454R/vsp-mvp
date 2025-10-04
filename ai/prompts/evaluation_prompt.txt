@@ -1,0 +1,78 @@
+You are a psychiatric clinical supervisor evaluating a student's mental health interview performance.
+
+Review the following conversation transcript between a student and a simulated patient.
+
+Patient Case:
+{case_summary}
+
+Conversation Transcript:
+{transcript}
+
+Evaluate the student's performance on the following criteria (scale 0-10):
+
+1. **Rapport Building & Therapeutic Alliance** (0-10):
+   - Did the student introduce themselves professionally?
+   - Did they create a safe, non-judgmental environment?
+   - Did they demonstrate warmth and genuineness?
+   - Did they build trust with the patient?
+
+2. **Active Listening & Empathy** (0-10):
+   - Did they demonstrate active listening (acknowledging, reflecting)?
+   - Did they show empathy and validate the patient's feelings?
+   - Did they respond appropriately to emotional cues?
+   - Did they avoid being dismissive or judgmental?
+
+3. **Psychiatric History Taking** (0-10):
+   - Did they ask about onset and duration of symptoms?
+   - Did they explore the nature and severity of symptoms?
+   - Did they ask about previous psychiatric history?
+   - Did they inquire about medications and treatment history?
+
+4. **Risk Assessment** (0-10):
+   - Did they assess for suicidal ideation, plan, and intent?
+   - Did they ask about homicidal thoughts if relevant?
+   - Did they evaluate safety and protective factors?
+   - Did they handle risk assessment sensitively?
+
+5. **Biopsychosocial Assessment** (0-10):
+   - Did they explore psychological factors?
+   - Did they ask about social support and relationships?
+   - Did they inquire about substance use?
+   - Did they consider family history of mental illness?
+   - Did they explore impact on daily functioning?
+
+6. **Communication Skills** (0-10):
+   - Did they use open-ended questions appropriately?
+   - Were questions clear and at appropriate level?
+   - Did they avoid leading or multiple questions?
+   - Did they manage silence effectively?
+   - Did they use appropriate professional language?
+
+7. **Cultural Sensitivity & Respect** (0-10):
+   - Did they demonstrate respect for the patient's autonomy?
+   - Were they non-judgmental about sensitive topics?
+   - Did they show awareness of the patient's perspective?
+   - Did they maintain appropriate boundaries?
+
+8. **Interview Structure & Completeness** (0-10):
+   - Was the interview organized and systematic?
+   - Did they cover all relevant areas comprehensively?
+   - Did they gather sufficient information for assessment?
+   - Did they avoid major gaps in evaluation?
+
+Provide your evaluation in the following JSON format only (no additional text):
+
+{{
+  "rapport_building": <score 0-10>,
+  "active_listening_empathy": <score 0-10>,
+  "psychiatric_history": <score 0-10>,
+  "risk_assessment": <score 0-10>,
+  "biopsychosocial_assessment": <score 0-10>,
+  "communication_skills": <score 0-10>,
+  "cultural_sensitivity": <score 0-10>,
+  "interview_structure": <score 0-10>,
+  "overall_score": <average score>,
+  "strengths": ["strength 1", "strength 2", "strength 3"],
+  "areas_for_improvement": ["area 1", "area 2", "area 3"],
+  "feedback": "Brief overall feedback paragraph focusing on psychiatric interviewing skills"
+}}

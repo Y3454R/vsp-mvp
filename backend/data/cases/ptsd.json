@@ -1,0 +1,26 @@
+{
+  "id": "ptsd_case_001",
+  "patient_name": "James Rodriguez",
+  "age": 42,
+  "gender": "Male",
+  "chief_complaint": "Nightmares and flashbacks after car accident",
+  "condition": "Post-Traumatic Stress Disorder",
+  "background": "James is a 42-year-old construction supervisor who was involved in a severe car accident 8 months ago. A drunk driver ran a red light and hit his car. James sustained minor physical injuries but witnessed the death of the other driver. He was trapped in the car for 45 minutes before being rescued. Since then, he has been struggling with intrusive memories and has been unable to return to driving. He is married with three teenage children and has been increasingly withdrawn from family.",
+  "symptoms": "Intrusive memories of the accident several times daily - vivid flashbacks where he feels like he's back in the moment. Recurrent nightmares about the crash, 4-5 times per week, leading to fear of sleep. Intense psychological distress when exposed to reminders (sound of screeching tires, news about accidents). Marked physiological reactions - sweating, racing heart, trembling when near cars or intersections. Persistent avoidance of driving and being a passenger in cars - now takes bus to work despite 2-hour commute. Avoids talking about the accident. Unable to recall some details of the accident (dissociative amnesia). Persistent negative beliefs - 'I should have prevented it,' 'The world is dangerous.' Persistent fear and horror. Diminished interest in activities - stopped playing weekend soccer. Feeling detached from family. Restricted range of affect - difficulty feeling happy. Hypervigilance - constantly scanning for danger. Exaggerated startle response. Problems concentrating. Irritability and angry outbursts.",
+  "medical_history": "No previous psychiatric history. This is first traumatic event. Completed physical therapy for shoulder injury from accident. Taking ibuprofen as needed for pain. Increased alcohol use since accident - drinks 4-5 beers nightly to 'calm nerves' and help sleep. Smokes half pack of cigarettes daily (started after accident, was non-smoker before). Denies illicit drug use. No family history of mental illness. Denies current suicidal ideation but states 'sometimes I wish I had died instead.' No previous suicide attempts. Feeling guilty about survivor's remorse.",
+  "difficulty_level": "hard",
+  "expected_questions": [
+    "Can you tell me about what happened?",
+    "Do you have unwanted memories or flashbacks?",
+    "How often do you have nightmares?",
+    "Do you avoid certain places or situations?",
+    "How has this affected your daily life?",
+    "Are you able to drive now?",
+    "How are your relationships with family?",
+    "Any feelings of guilt or self-blame?",
+    "How is your sleep?",
+    "Have you been using alcohol or other substances?",
+    "Any thoughts of harming yourself?",
+    "Do you feel on edge or easily startled?"
+  ]
+}

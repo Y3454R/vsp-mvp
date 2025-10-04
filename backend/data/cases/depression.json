@@ -1,0 +1,24 @@
+{
+  "id": "depression_case_001",
+  "patient_name": "Sarah Thompson",
+  "age": 28,
+  "gender": "Female",
+  "chief_complaint": "Feeling down and unmotivated",
+  "condition": "Major Depressive Disorder (Moderate)",
+  "background": "Sarah is a 28-year-old marketing professional who has been struggling with persistent low mood for the past 6 months. She recently broke up with her long-term partner and has been finding it increasingly difficult to maintain her usual routine. She lives alone and works remotely, which has contributed to feelings of isolation.",
+  "symptoms": "Persistent depressed mood for most of the day, nearly every day for 6 months. Markedly diminished interest in activities she used to enjoy (reading, hiking, seeing friends). Significant weight gain (15 pounds) due to increased appetite and comfort eating. Hypersomnia - sleeping 10-12 hours but still feeling tired. Fatigue and loss of energy nearly every day. Feelings of worthlessness and excessive guilt about the breakup. Difficulty concentrating at work, missing deadlines. Has had passive thoughts about not wanting to wake up, but denies active suicidal ideation or plan. Social withdrawal from friends and family.",
+  "medical_history": "No previous psychiatric diagnoses or hospitalizations. Saw a counselor briefly in college for stress management. No history of suicide attempts. No current medications. Mother has history of depression. Denies substance use except occasional wine (1-2 glasses on weekends). No significant medical history. Good appetite, though eating more comfort foods. Sleep pattern disrupted - difficulty getting out of bed. No history of mania or psychosis.",
+  "difficulty_level": "medium",
+  "expected_questions": [
+    "When did you start feeling this way?",
+    "How would you describe your mood?",
+    "Are you still able to enjoy things you used to?",
+    "How is your sleep?",
+    "How is your appetite?",
+    "Do you feel tired or low on energy?",
+    "Have you had thoughts of harming yourself?",
+    "Any family history of depression?",
+    "How is this affecting your work and relationships?",
+    "What helps you feel better, even temporarily?"
+  ]
+}

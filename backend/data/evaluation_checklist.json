@@ -1,0 +1,93 @@
+{
+  "criteria": [
+    {
+      "name": "Rapport Building & Therapeutic Alliance",
+      "weight": 12.5,
+      "subcriteria": [
+        "Professional introduction",
+        "Created safe, non-judgmental environment",
+        "Demonstrated warmth and genuineness",
+        "Built trust with patient"
+      ]
+    },
+    {
+      "name": "Active Listening & Empathy",
+      "weight": 12.5,
+      "subcriteria": [
+        "Demonstrated active listening (acknowledging, reflecting)",
+        "Showed empathy and validated feelings",
+        "Responded appropriately to emotional cues",
+        "Avoided being dismissive or judgmental"
+      ]
+    },
+    {
+      "name": "Psychiatric History Taking",
+      "weight": 12.5,
+      "subcriteria": [
+        "Asked about onset and duration of symptoms",
+        "Explored nature and severity of symptoms",
+        "Asked about previous psychiatric history",
+        "Inquired about medications and treatment history"
+      ]
+    },
+    {
+      "name": "Risk Assessment",
+      "weight": 12.5,
+      "subcriteria": [
+        "Assessed for suicidal ideation, plan, intent",
+        "Asked about homicidal thoughts if relevant",
+        "Evaluated safety and protective factors",
+        "Handled risk assessment sensitively"
+      ]
+    },
+    {
+      "name": "Biopsychosocial Assessment",
+      "weight": 12.5,
+      "subcriteria": [
+        "Explored psychological factors",
+        "Asked about social support and relationships",
+        "Inquired about substance use",
+        "Considered family history of mental illness",
+        "Explored impact on daily functioning"
+      ]
+    },
+    {
+      "name": "Communication Skills",
+      "weight": 12.5,
+      "subcriteria": [
+        "Used open-ended questions appropriately",
+        "Questions were clear and appropriate",
+        "Avoided leading or multiple questions",
+        "Managed silence effectively",
+        "Used appropriate professional language"
+      ]
+    },
+    {
+      "name": "Cultural Sensitivity & Respect",
+      "weight": 12.5,
+      "subcriteria": [
+        "Demonstrated respect for patient's autonomy",
+        "Non-judgmental about sensitive topics",
+        "Showed awareness of patient's perspective",
+        "Maintained appropriate boundaries"
+      ]
+    },
+    {
+      "name": "Interview Structure & Completeness",
+      "weight": 12.5,
+      "subcriteria": [
+        "Interview was organized and systematic",
+        "Covered all relevant areas comprehensively",
+        "Gathered sufficient information",
+        "No major gaps in psychiatric evaluation"
+      ]
+    }
+  ],
+  "grading_scale": {
+    "9-10": "Excellent - Demonstrates advanced psychiatric interviewing skills",
+    "7-8": "Good - Competent mental health assessment with minor gaps",
+    "5-6": "Satisfactory - Basic skills present but needs improvement",
+    "3-4": "Needs Improvement - Significant gaps in psychiatric interview",
+    "0-2": "Poor - Does not demonstrate safe psychiatric assessment skills"
+  }
+}

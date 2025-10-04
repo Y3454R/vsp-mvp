@@ -1,0 +1,26 @@
+{
+  "id": "bipolar_case_001",
+  "patient_name": "Amanda Williams",
+  "age": 26,
+  "gender": "Female",
+  "chief_complaint": "Mood swings and impulsive behavior",
+  "condition": "Bipolar I Disorder (Currently Manic Episode)",
+  "background": "Amanda is a 26-year-old graduate student in art history who was brought to the clinic by her roommate. Over the past 2 weeks, her roommate has noticed dramatic changes in Amanda's behavior - she's been staying up all night painting, spending large amounts of money online, and speaking very rapidly about 'revolutionary art projects.' Amanda believes she is on the verge of an artistic breakthrough and doesn't think there's anything wrong. She has had similar episodes before but has been inconsistent with treatment.",
+  "symptoms": "Current manic episode for past 2 weeks: Persistently elevated and expansive mood - describes feeling 'amazing' and 'unstoppable.' Inflated self-esteem and grandiosity - believes her art will 'change the world,' planning to contact major museums despite being a student. Decreased need for sleep - sleeping only 2-3 hours per night but feels energized. More talkative than usual with pressured speech - difficult to interrupt. Flight of ideas and racing thoughts - jumps rapidly between topics. Distractibility - can't focus on one task. Increase in goal-directed activity - started 10 new art projects simultaneously. Excessive involvement in risky activities - spent $5,000 on art supplies on credit cards, gave away expensive items, made sexually inappropriate comments to strangers. Poor insight - doesn't believe anything is wrong. Past history: Had similar episode 3 years ago lasting 3 weeks - was hospitalized briefly. History of depressive episodes lasting 2-3 months characterized by low mood, low energy, social withdrawal.",
+  "medical_history": "Diagnosed with Bipolar I Disorder 3 years ago after first manic episode. Was prescribed lithium but stopped taking it 6 months ago because she 'felt fine' and didn't like the side effects. Previous psychiatric hospitalization during first manic episode. No suicide attempts but had suicidal thoughts during past depressive episodes. Currently taking no medications despite prescriptions. Occasional marijuana use - increased during current episode. Social alcohol use. No other substance use. Denies medical problems. Mother has bipolar disorder. Uncle completed suicide. Family concerned about her safety and judgment during these episodes.",
+  "difficulty_level": "hard",
+  "expected_questions": [
+    "How have you been feeling lately?",
+    "How much sleep are you getting?",
+    "Do you feel like your thoughts are racing?",
+    "Have you been more active than usual?",
+    "Any recent spending or impulsive decisions?",
+    "How is your mood typically between these episodes?",
+    "Have you experienced periods of depression?",
+    "Are you currently taking any medications?",
+    "Why did you stop your previous medication?",
+    "Any family history of mood disorders?",
+    "Have you ever felt so low you thought about suicide?",
+    "Do you think there's anything concerning about your current state?"
+  ]
+}

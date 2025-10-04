@@ -1,0 +1,25 @@
+{
+  "id": "anxiety_case_001",
+  "patient_name": "Michael Chen",
+  "age": 35,
+  "gender": "Male",
+  "chief_complaint": "Constant worry and panic attacks",
+  "condition": "Generalized Anxiety Disorder with Panic Attacks",
+  "background": "Michael is a 35-year-old software engineer who has always been a worrier, but his anxiety has significantly worsened over the past year since taking on a senior leadership role. He has a wife and two young children. His father recently had a heart attack, which has increased his health anxiety. He feels overwhelmed by responsibilities at work and home.",
+  "symptoms": "Excessive worry about multiple things (work performance, family health, finances) for the past 12 months, occurring more days than not. Difficulty controlling the worry. Restlessness and feeling on edge constantly. Easily fatigued despite sleeping reasonably well. Difficulty concentrating - mind goes blank during meetings. Muscle tension, especially in neck and shoulders. Irritability with family members. Sleep disturbance - difficulty falling asleep due to racing thoughts. Has experienced 4 panic attacks in the past 3 months - sudden intense fear with palpitations, sweating, trembling, shortness of breath, feeling of losing control, fear of dying. These attacks last 10-20 minutes. Now worried about having more attacks. Avoids certain situations (crowded places, driving on highways) due to fear of panic attacks.",
+  "medical_history": "No previous mental health treatment. Describes himself as always being a 'nervous person.' Denies depression. No suicidal ideation. Went to ER twice during panic attacks thinking he was having a heart attack - cardiac workup was normal. Currently takes no psychiatric medications. Drinks 3-4 cups of coffee daily. Social drinker (2-3 beers per week). Never used illicit drugs. No smoking. Father has anxiety and had recent MI. Mother has no mental health history. Physically healthy otherwise - exercises occasionally but not consistently.",
+  "difficulty_level": "medium",
+  "expected_questions": [
+    "What kinds of things do you worry about?",
+    "How often do you feel anxious?",
+    "Can you describe what happens during a panic attack?",
+    "How long do these feelings last?",
+    "Does the worry interfere with your daily life?",
+    "Any physical symptoms with the anxiety?",
+    "Have you avoided any situations because of anxiety?",
+    "How is your sleep?",
+    "Caffeine or substance use?",
+    "Family history of anxiety?",
+    "Any recent stressors or life changes?"
+  ]
+}

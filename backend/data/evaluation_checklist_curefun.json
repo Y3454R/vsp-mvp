@@ -1,0 +1,177 @@
+{
+  "assessment_structure": {
+    "aspects_weight": 0.3,
+    "information_weight": 0.7,
+    "description": "Assessment follows CureFun paper methodology with Aspects (proactive inquiry) and Information (key data elicited)"
+  },
+  "aspects": {
+    "description": "Items that require proactive inquiry by the student (30% of total score)",
+    "items": [
+      {
+        "id": "A1",
+        "name": "Onset and Timeline Inquiry",
+        "description": "Did the student ask when symptoms started and how they progressed over time?",
+        "weight": 12.5
+      },
+      {
+        "id": "A2",
+        "name": "Severity Assessment",
+        "description": "Did the student inquire about symptom severity and impact on daily functioning?",
+        "weight": 12.5
+      },
+      {
+        "id": "A3",
+        "name": "Previous Treatment History",
+        "description": "Did the student ask about previous psychiatric treatment, therapy, or medications?",
+        "weight": 12.5
+      },
+      {
+        "id": "A4",
+        "name": "Suicide Risk Assessment",
+        "description": "Did the student directly and sensitively assess suicidal ideation, plan, and intent?",
+        "weight": 12.5
+      },
+      {
+        "id": "A5",
+        "name": "Substance Use Inquiry",
+        "description": "Did the student ask about alcohol, drug use, and smoking habits?",
+        "weight": 12.5
+      },
+      {
+        "id": "A6",
+        "name": "Family Psychiatric History",
+        "description": "Did the student inquire about family history of mental illness?",
+        "weight": 12.5
+      },
+      {
+        "id": "A7",
+        "name": "Social Support Assessment",
+        "description": "Did the student ask about relationships, living situation, and social support?",
+        "weight": 12.5
+      },
+      {
+        "id": "A8",
+        "name": "Sleep and Appetite Patterns",
+        "description": "Did the student inquire about sleep quality, duration, and appetite changes?",
+        "weight": 12.5
+      }
+    ]
+  },
+  "information": {
+    "description": "Key information that must be elicited from patient (70% of total score)",
+    "items": [
+      {
+        "id": "I1",
+        "name": "Primary Symptoms",
+        "description": "Core psychiatric symptoms present in the case",
+        "weight": 20
+      },
+      {
+        "id": "I2",
+        "name": "Duration and Frequency",
+        "description": "How long symptoms have been present and how often they occur",
+        "weight": 15
+      },
+      {
+        "id": "I3",
+        "name": "Functional Impairment",
+        "description": "Impact on work, relationships, and daily activities",
+        "weight": 15
+      },
+      {
+        "id": "I4",
+        "name": "Safety Information",
+        "description": "Suicidal/homicidal thoughts, specific plans, protective factors",
+        "weight": 15
+      },
+      {
+        "id": "I5",
+        "name": "Psychiatric History",
+        "description": "Previous diagnoses, hospitalizations, medications tried",
+        "weight": 10
+      },
+      {
+        "id": "I6",
+        "name": "Substance Details",
+        "description": "Specific substances, amounts, frequency, and duration of use",
+        "weight": 10
+      },
+      {
+        "id": "I7",
+        "name": "Relevant Medical Information",
+        "description": "Medical conditions, medications, allergies relevant to psychiatric presentation",
+        "weight": 10
+      },
+      {
+        "id": "I8",
+        "name": "Psychosocial Stressors",
+        "description": "Recent life events, trauma, losses, or stressors triggering symptoms",
+        "weight": 5
+      }
+    ]
+  },
+  "non_scoring_metrics": {
+    "description": "Reference metrics that provide additional context but don't affect score",
+    "metrics": [
+      {
+        "id": "M1",
+        "name": "Information Density",
+        "description": "Density of medical entities and relevant information in dialogue",
+        "calculation": "medical_entities / total_words"
+      },
+      {
+        "id": "M2",
+        "name": "Emotional Tendency",
+        "description": "Emotional polarity and friendliness in student's communication",
+        "range": [-1, 1]
+      },
+      {
+        "id": "M3",
+        "name": "Response Length",
+        "description": "Average length of student responses in tokens",
+        "unit": "tokens"
+      },
+      {
+        "id": "M4",
+        "name": "Turn Number",
+        "description": "Total number of conversational turns",
+        "unit": "count"
+      },
+      {
+        "id": "M5",
+        "name": "Rapport Quality",
+        "description": "Quality of therapeutic alliance and patient comfort level",
+        "range": [0, 10]
+      }
+    ]
+  },
+  "scoring_guidelines": {
+    "aspects": {
+      "description": "Score based on whether the student asked about the aspect",
+      "scale": {
+        "2": "Thoroughly explored with appropriate follow-up questions",
+        "1": "Asked about but not fully explored",
+        "0": "Not asked or inappropriately asked"
+      }
+    },
+    "information": {
+      "description": "Score based on whether key information was successfully elicited",
+      "scale": {
+        "2": "Information fully elicited with appropriate detail",
+        "1": "Information partially elicited or lacking detail",
+        "0": "Information not elicited or obtained inappropriately"
+      }
+    }
+  },
+  "overall_calculation": {
+    "formula": "(aspects_score * 0.3) + (information_score * 0.7)",
+    "max_score": 10,
+    "interpretation": {
+      "9-10": "Excellent - Comprehensive psychiatric assessment",
+      "7-8": "Good - Competent with minor gaps",
+      "5-6": "Satisfactory - Basic skills but needs improvement",
+      "3-4": "Needs Improvement - Significant gaps in assessment",
+      "0-2": "Poor - Unsafe or inadequate psychiatric assessment"
+    }
+  }
+}
